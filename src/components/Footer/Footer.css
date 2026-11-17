@@ -1,0 +1,14 @@
+footer{
+    background-color: #0F161E;
+    padding: 15px 20px;
+    height: 10dvh;
+}
+
+footer h3{
+    display: flex;
+    align-items: center;
+}
+
+footer .logo{
+  width: 2%;
+}

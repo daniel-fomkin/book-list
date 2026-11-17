@@ -1,0 +1,30 @@
+body *{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body{
+    padding: 0 15px;
+    margin: 0;
+    background-color: #0F141D;
+}
+
+main{
+    height: 68dvh;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding: 0 20px;
+}
+
+.book-container{
+    display: flex;
+    width: 100%;
+    gap: 30px;  
+    height: 23dvh;
+}
+
+main > div >     h3{
+    font-size: 35px;
+}
