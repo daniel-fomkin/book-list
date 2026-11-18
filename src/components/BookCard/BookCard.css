@@ -1,63 +1,66 @@
-.book-card{
+.book-card {
     background-color: #232A32;
     display: flex;
     border-radius: 15px;
     padding-top: 10px;
     padding-bottom: 20px;
+}
 
-    & .book-image{
-        width: 40%;
-        display: flex;
+.book-card .book-image {
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 
-        justify-content: center;
+.book-card .book-image img {
+    height: 80%;
+    border-radius: 10px;
+}
 
-        padding: 20px;
-        & img{
-            width: 100%;
-            height: 80%;
-        }
-    }
+.book-card .book-text {
+    padding: 10px;
+    padding-right: 15px;
+    width: 80%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
 
-    & .book-text{
-        padding: 10px;
-        width: 80%;
-        justify-content: space-between;
-        display: flex;
-        flex-direction: column;
-        
-        & p{
-            font-size: 20px;
-        }
+.book-card .book-text p {
+    font-size: 20px;
+}
 
-        & h4{
-            font-size: 25px;
-            margin: 0;
-        }
+.book-card .book-text h4 {
+    font-size: 25px;
+    margin: 0;
+}
 
-        & .author{
-            font-size: 15px;
-            color: rgba(255, 255, 255, 0.767);
-            margin-top: 0;
-        }
+.book-card .book-text .author {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.767);
+    margin-top: 0;
+}
 
-        & .book-category{
-            padding: 5px 15px;
-            border-radius: 20px;
-            background-color: #23554B;
-        }
+.book-card .book-text .book-category {
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: #23554B;
+}
 
-        & button{
-            background-color: #058C8C;
-            border: 0;
-            width: 100%;
-            border-radius: 10px;
-            font-size: 25px;
-            font-weight: 600;
-        }
+.book-card .book-text button {
+    background-color: #058C8C;
+    border: 0;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 0;
+    cursor: pointer;
+}
 
-        & .price{
-            font-weight: 600;
-            font-size: 20px;
-        }
-    }
+.book-card .book-text .price {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 10px;
 }

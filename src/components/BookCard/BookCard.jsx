@@ -1,7 +1,7 @@
 import "./BookCard.css";
 
 export default function BookCard({ bookData }) {
-  console.log(bookData);
+
   return (
     <div className="book-card">
       <div className="book-image">
@@ -18,7 +18,7 @@ export default function BookCard({ bookData }) {
         </div>
 
         <div>
-          <p className="price">{bookData.price}€</p>
+          <p className="price">{bookData.price} €</p>
 
           <button type="button">Plačiau</button>
         </div>

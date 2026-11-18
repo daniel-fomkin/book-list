@@ -7,32 +7,47 @@ header {
   background-color: #13181E;
 
   border-radius: 0px 0 20px 20px;
-
-  & h3 {
-    font-size: 35px;
-  }
-
-  & ul {
-    display: flex;
-    list-style-type: none;
-    gap: 50px;
-
-    & a {
-      text-decoration: none;
-      font-size: 20px;
-      font-weight: 600;
-    }
-
-    & li {
-      transition: 200ms;
-    }
-
-    & li:hover {
-      transform: scale(1.15);
-    }
-  }
 }
 
-.logo{
-  width: 10%;
+header .logo h3 {
+  font-size: 35px;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+}
+
+header nav ul a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+header nav ul li:first-child {
+  border-bottom: 4px solid #74D6BD;
+  padding: 2px;
+}
+
+header nav ul li:first-child a {
+  color: #74D6BD;
+}
+
+header nav ul li {
+  transition: 200ms;
+}
+
+header nav ul li:hover {
+  transform: scale(1.15);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 15%;
 }

@@ -1,14 +1,19 @@
-footer{
+footer {
+    margin-top: auto;
     background-color: #0F161E;
     padding: 15px 20px;
-    height: 10dvh;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
-footer h3{
+
+footer .logo {
     display: flex;
     align-items: center;
 }
 
-footer .logo{
-  width: 2%;
+footer .logo img {
+    width: 10%;
 }

@@ -5,7 +5,11 @@ import Logo from '/assets/logo.png'
 export default function Footer({ years, title }) {
   return (
     <footer>
-      <h3><img src={Logo} alt="logo" className='logo' /> {title}</h3>
+      <div className="logo">
+        <img src={Logo} alt="logo" />
+        <h3>{title}</h3>
+
+      </div>
 
       <p>
         © {years} {title}

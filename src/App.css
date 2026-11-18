@@ -1,30 +1,35 @@
-body *{
+body * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
-body{
+body>div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100dvh;
+}
+
+body {
     padding: 0 15px;
     margin: 0;
     background-color: #0F141D;
 }
 
-main{
-    height: 68dvh;
+main {
     display: flex;
     flex-direction: column;
     gap: 5vh;
     padding: 0 20px;
 }
 
-.book-container{
+.book-container {
     display: flex;
     width: 100%;
-    gap: 30px;  
-    height: 23dvh;
+    gap: 30px;
 }
 
-main > div >     h3{
+main>div>h3 {
     font-size: 35px;
 }
